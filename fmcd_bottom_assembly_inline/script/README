@@ -1,0 +1,54 @@
+# Soundness and Excess Flow Base Enclosure Test Script
+This script is to be used to perform soundness and excess flow checks on the Smart Regulator Base Enclosure
+
+## Prerequisite
+1. Install python 3.11
+2. Add python to path
+3. Install git(latest version)
+4. Add git to path
+
+## Installation
+__Note__: The following commands are to be run in the _terminal_(Command Prompt/Powershell/terminal) 
+
+1. Open command prompt(or your preferred terminal)   
+
+2. Clone the repository using the command:
+```
+git clone https://Ndungu_mwangi@bitbucket.org/paygoenergy/fmcd_bottom_assembly_inline.git
+```
+
+3. Navigate to the cloned directory
+
+4. Switch to the _base_assembly_sef_ branch:
+```
+git switch base_assembly_sef
+```
+5. On the terminal, navigate to the _script_ folder by running the command below:
+```
+cd fmcd_bottom_assembly_inline\script
+```
+
+6. Install the modules required by running the command below:
+```
+py -m pip install -r requirements.txt
+```
+
+## Environment
+1. Download and setup [Visual Studio Code](https://code.visualstudio.com/)
+
+## Usage
+1. Navigate to the __src__ folder.
+2. Open the config.txt file
+3. Update the file with the correct configs:
+    ```
+        type:inline
+        s_type:base_enclosure_sef
+        db:PROD
+        FR1_LPM:17.33
+        FR2_LPM:1
+        leak_test:manual
+        PRESS_THRESH:150
+    ```
+4. Save the changes and close the file
+5. Navigate back to the parent folder(_script_)
+6. Run batch script: run_script

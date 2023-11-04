@@ -1,0 +1,11 @@
+type:inline
+s_type:base_enclosure_sef
+db:PROD
+FR1_LPM:17.33
+FR2_LPM:1.3
+leak_test:enable
+excess_flow_test:enable
+afc_pot:enable
+ser_val:enable
+PRESS_THRESH:150
+CMN_VALVE:4

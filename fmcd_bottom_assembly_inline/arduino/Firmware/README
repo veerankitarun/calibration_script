@@ -1,0 +1,14 @@
+# AFC Calibration Relay Control Firmware
+This Firmware is used to control the opening and closing of solenoid valves in the AFC calibration rig using relays.
+
+## Solenoid Valve Control
+| __Solenoid Valve No__ | __OPEN CMD__ | __CLOSE CMD__ |
+|-----------------------|--------------|---------------|
+|          1            |    CMD=1,1   |    CMD=1,0    |
+|          2            |    CMD=2,1   |    CMD=2,0    |
+|          3            |    CMD=3,1   |    CMD=3,0    |
+|          4            |    CMD=4,1   |    CMD=4,0    |
+|          8            |    CMD=5,1   |    CMD=5,0    |
+|          9            |    CMD=6,1   |    CMD=6,0    |
+
+

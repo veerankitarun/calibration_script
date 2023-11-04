@@ -1,0 +1,53 @@
+{
+    "staging": {
+        "post": "https://fusion.staging.paygoenergy.io/api/v1/assembly-events",
+        "get": "https://fusion.staging.paygoenergy.io/api/v1/assembly-parts/"
+    },
+    "production": {
+        "post": "https://fusion.paygoenergy.io/api/v1/assembly-events",
+        "get": "https://fusion.paygoenergy.io/api/v1/assembly-parts/"
+    },
+    "ser_frmt":{
+        "afc_pref":     "EFK",
+        "afc_suff":     "231300001",
+        "reg_pref":     "KRX",
+        "reg_suff":     "23JJ00017AA",
+        "lock_pref":    "ELKD",
+        "lock_suff":    "234100005",
+        "valve_pref":   "YSX",
+        "valve_suff":   "230900158"
+    },
+    "bcolors": {
+        "HEADER":       "95m",
+        "OKBLUE":       "94m",
+        "OKCYAN":       "96m",
+        "OKGREEN":      "92m",
+        "WARNING":      "93m",
+        "FAIL":         "91m",
+        "ENDC":         "0m",
+        "BOLD":         "1m",
+        "UNDERLINE":    "4m"
+    },
+    "valve_ctrl": {
+        "AV_CLOSE":     "CMD=0,0",
+        "AV_OPEN":      "CMD=A,1",
+        "EFV1_CLOSE":   "CMD=1,0",
+        "EFV1_OPEN":    "CMD=1,1",
+        "EFV2_CLOSE":   "CMD=2,0",
+        "EFV2_OPEN":    "CMD=2,1",
+        "FRV1_CLOSE":   "CMD=3,0",
+        "FRV1_OPEN":    "CMD=3,1",
+        "FRV2_CLOSE":   "CMD=4,0",
+        "FRV2_OPEN":    "CMD=4,1",
+        "V7_CLOSE":     "CMD=7,0",
+        "V7_OPEN":      "CMD=7,1",
+        "SV_CLOSE":     "CMD=8,0",
+        "SV_OPEN":      "CMD=8,1"
+    },
+    "pott_config":{
+        "1":    "FULLY_POTTED",
+        "2":    "MOLD_POTTED",
+        "3":    "DRIP_POTTED",
+        "4":    "NO_POT"
+    }
+}
