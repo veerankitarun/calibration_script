@@ -1,0 +1,10 @@
+type:inline
+s_type:afc_calibration
+db:PROD
+air_lpg_scale:-6
+FR1_LPM:1.25
+FR2_LPM:8.0
+PSD1_db:-48
+FR_VAR_%:10
+PSD_VAR_%:20
+PSD_range:15
